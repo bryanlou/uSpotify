@@ -35,7 +35,12 @@ Built with a bunch of things, but to name a few:
    heroku config:set FRONTEND_URI=https://app-name.herokuapp.com
    ```
 
-3. Push to Heroku
+3. Add remote to local repository
+   ```bash
+   heroku git:remote -a app-name
+   ```
+
+4. Push to Heroku
 
    ```bash
    git push heroku master
